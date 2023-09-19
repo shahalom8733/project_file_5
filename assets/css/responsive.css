@@ -1,0 +1,294 @@
+
+
+@media all and (max-width: 1200px){
+
+.main-header-area {
+	padding: 4rem 3rem 0rem 3rem;
+	box-sizing: border-box;
+}
+.banner-contant {
+	padding: 3rem 0;
+}
+.logo {
+	left: 0rem;
+
+}
+.menu {
+	display: flex;
+	flex-basis: 59rem;
+	justify-content: flex-end;
+}
+/*banner*/
+.main-header-area::after {
+	top: -1rem;
+	right: -6rem;
+	width: 50%;
+}
+/*.servicing-area*/
+.service-heading {
+	flex-basis: 34%;
+}
+.webservice-area {
+	margin-top: 5rem;
+}
+/*.about-area*/
+.elementor-image img {
+	position: absolute;
+	width: 90%;
+	top: 0;
+	left: 0rem;
+}
+
+.banner-area {
+	padding: 11rem 0rem 7rem 0rem;
+}
+
+.blog-area-area {
+	padding: 7rem 3rem 6rem 3rem;
+}
+.form-area {
+	padding: 4rem 3rem 4rem 3rem;
+}
+}
+
+@media all and (max-width: 991px){
+
+	.service-area {
+	padding: 0rem 3rem;
+}
+.about-area {
+	padding: 7rem 3rem 3rem 3rem;
+}
+		.slide-button button {
+		display:block;
+
+}
+
+.creative-area {
+	position: relative;
+	padding: 0 3rem;
+}
+.header-part {
+	justify-content: flex-end;
+}
+.menu {
+	visibility: hidden;
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 0;
+	z-index: 9999;
+}
+.show {
+	height: 100vh;
+	visibility: visible;
+	background: #314584e6;
+}
+.hide{
+	display: block;
+}
+.menu ul {
+	flex-direction: column;
+	justify-content: flex-start;
+	width: 100%;
+	margin-top: 13rem;
+}
+.menu ul li a{
+	  color: white;
+		padding-top: 3rem;
+	font-size: 2.5rem;
+}
+
+/*banner-area*/
+.main-header-area::after {
+	top: -2rem;
+	right: -5rem;
+	width: 50%;
+}
+.banner-contant {
+	padding: 6rem 0;
+}
+.banner-contant h1{
+	font-size: 5rem;
+	line-height: 7rem;
+}
+.banner-contant {
+	width: 43rem;
+}
+/*service-area*/
+.services {
+	flex-direction: column;
+}
+.service-area {
+	padding-top: 0;
+}
+.creative-company {
+	padding-top: 0rem;
+}
+/*about-area*/
+.about-area {
+	padding-top: 6rem;
+}
+.elementor {
+	flex-direction: column;
+}
+.elementor-image img {
+	position: inherit;
+	width: 100%;
+	max-width: 54rem;
+	margin: auto;
+	z-index: 1;
+}
+
+/*blog-area*/
+
+.blog-footer-link {
+	padding-top: 3rem;
+}
+/*form-area*/
+
+
+.input-area {
+	grid-template-columns: repeat(2, 1fr);
+	column-gap: 4rem;
+}
+.banner-area {
+	padding: 4rem 0rem 3rem 0rem;
+}
+.service-heading h2 {
+	font-size: 3rem;
+}
+
+}
+@media all and (max-width: 767px){
+	.banner-area {
+	padding: 5rem 0rem 5rem 0rem;
+}
+.banner-contant {
+	width: 100%;
+}
+.first-item {
+	box-shadow: 0rem 0.5rem 1rem -0.4rem rgba(0, 0, 0, .5);
+	margin: 1rem 1.5rem;
+	width: calc(93% / 2) !important;
+}
+.banner-contant h1{
+	font-size: 5rem;
+	line-height: 7rem;
+}
+.main-header-area::after {
+	width: 0;
+}
+/*service-area*/
+.web-area {
+	padding: 3rem 2rem;
+}
+.service-area {
+	padding: 0rem 3rem;
+	box-sizing: border-box;
+}
+.about {
+	flex-direction: column;
+}
+.about-content {
+	width: 100%;
+}
+.about-content img {
+	margin-bottom: 6rem;
+}
+.about-area {
+	padding: 11rem 3rem 0rem 3rem;
+}
+.about-content {
+	position: inherit;
+}
+.about-content img {
+	position: inherit;
+	width: 100%;
+}
+.input-area {
+	grid-template-columns: repeat(1, 1fr);
+}
+.input-area input[type="email"] {
+	margin-bottom: 3rem;
+	margin-top: 2rem;
+}
+.creative-heading h2 {
+	padding-bottom: 0rem;
+}
+.banner-area {
+	padding: 2rem 0rem 0rem 0rem;
+}
+.service-heading h2 {
+	font-size: 3rem;
+	line-height: 4rem;
+}
+
+}
+@media all and (max-width: 575px){
+	.header-btn select {
+	display: none;
+}
+.contact-btn a {
+	display: none;
+}
+.hide {
+	right: 12rem;
+}
+/*service-area*/
+.webservice-area {
+	flex-direction: column;
+}
+.web-area:first-child {
+	margin-right: 0;
+	margin-bottom: 6rem;
+}
+.footer-menu ul li:nth-child(5) {
+	padding-top: 2rem;
+}
+
+.banner-btn a:first-child {
+	margin-bottom: 3rem;
+}
+.banner-area {
+	padding: 0rem 0rem 0rem 0rem;
+}
+
+
+
+}
+@media all and (max-width: 480px){
+	.banner-contant h1 {
+	font-size: 4rem;
+	line-height: 6rem;
+}
+.service-heading h2 {
+	font-size: 2.5rem;
+	line-height: 3.5rem;
+	padding-top: 1rem;
+}
+	.footer-menu ul li:nth-child(4) {
+	padding-top: 2rem;
+}
+.footer-service h2{
+	font-size: 3rem;
+}
+.footer-service p {
+	padding: 0;
+	padding-top: 1rem;
+}
+.blog-doob {
+	top: 2rem;
+
+}
+.blog-doob-2 {
+	top: -0.2rem;
+
+}
+}
+@media all and (max-width: 380px){
+	.footer-menu ul li:nth-child(3) {
+	padding-top: 2rem;
+}
+}
